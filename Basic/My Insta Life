@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner o=new Scanner(System.in);
+        String Name=o.next();
+        int Followers=o.nextInt();
+        int Post=o.nextInt();
+        float Daily_Usage=o.nextFloat();
+        System.out.println("My name is "+Name+", my Instagram has "+Followers+" followers, I have posted " +Post+" posts, and I use Instagram for "+Daily_Usage+" hours daily.");
+    }
+}
